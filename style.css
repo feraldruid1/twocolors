@@ -9,16 +9,10 @@ body {
 }
 .colordiv {
     display: flex;
-    background-color: white;
+    background-color: red;
     width: 200px;
     height: 200px;
     
-}
-.colordiv::before {
-    content: "";
-    width: 100px;
-    height: 200px;
-    background-color: red;
 }
 .colordiv::after {
     content: "";
