@@ -12,5 +12,17 @@ body {
     background-color: white;
     width: 200px;
     height: 200px;
-    background-image: linear-gradient(to right, red , yellow);
+    
+}
+.colordiv::before {
+    content: "";
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+.colordiv::after {
+    content: "";
+    width: 100px;
+    height: 200px;
+    background-color: brown;
 }
